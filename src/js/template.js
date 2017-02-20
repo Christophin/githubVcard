@@ -39,7 +39,7 @@ function buildDisplay (info)  {
         <div>${info.bio}</div>
       </div>
       <div class="media-right">
-        <figure class="image" style="height: 128px; width: 128px;">
+        <figure class="image" style="height: 110px; width: 110px;">
           <img src="${info.avatar_url}" alt="Image">
         </figure>
       </div>
