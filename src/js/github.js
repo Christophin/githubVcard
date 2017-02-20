@@ -1,14 +1,10 @@
 import $ from 'jquery';
-import GH_TOKEN from './token.js';
 
 function searchRepos ()  {
   //debugger;
   return $.ajax({
     url: `https://api.github.com/users/christophin`,
     dataType: "json",
-    headers: {
-      "Authorization": `token ${GH_TOKEN}`
-    },
     //success: console.log
   });
 }
